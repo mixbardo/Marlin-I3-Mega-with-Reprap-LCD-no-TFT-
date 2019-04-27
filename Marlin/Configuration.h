@@ -735,7 +735,7 @@
 //
 #define JUNCTION_DEVIATION
 #if ENABLED(JUNCTION_DEVIATION)
-  #define JUNCTION_DEVIATION_MM 0.027  // (mm) Distance from real junction edge ((Jerk*Jerk)/AccPrinting)*0,4=0,027
+  #define JUNCTION_DEVIATION_MM 0.075  // (mm) Distance from real junction edge ((Jerk*Jerk)/AccPrinting)*0,4=0,027
 #endif
 
 /**
